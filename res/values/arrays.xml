@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="number_of_row">
+        <item>4 (Default)</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        </string-array>
+    <string-array name="number_of_row_value">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="row_height">
+        <item>150dip</item>
+        <item>125dip</item>
+        <item>100dip (Default)</item>
+        <item>75dip</item>
+        <item>50dip</item>
+        <item>25dip</item>
+    </string-array>
+    <string-array name="row_height_value">
+        <item>150</item>
+        <item>125</item>
+        <item>100</item>
+        <item>75</item>
+        <item>50</item>
+        <item>25</item>
+    </string-array>
+
+</resources>

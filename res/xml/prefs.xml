@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_category_notif_title" >
+        <CheckBoxPreference
+            android:key="@string/pref_use_qsmod_key"
+            android:summary="@string/pref_use_qsmod_summary"
+            android:title="@string/pref_use_qsmod_title" />
+
+        <ListPreference
+            android:dialogTitle="@string/pref_qs_number_of_row_title"
+            android:entries="@array/number_of_row"
+            android:entryValues="@array/number_of_row_value"
+            android:key="@string/pref_qs_number_of_row_key"
+            android:summary="@string/pref_qs_number_of_row_summary"
+            android:title="@string/pref_qs_number_of_row_title" />
+        <ListPreference
+            android:dialogTitle="@string/pref_qs_row_height_title"
+            android:entries="@array/row_height"
+            android:entryValues="@array/row_height_value"
+            android:key="@string/pref_qs_row_height_key"
+            android:summary="@string/pref_qs_row_height_summary"
+            android:title="@string/pref_qs_row_height_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

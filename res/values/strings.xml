@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Mod4SystemUI</string>
+    <string name="app_description">various mod for SystemUI.</string>
+    <string name="pref_category_notif_title">Notification Panel</string>
+    <string name="pref_use_qsmod_key">QucikSettings</string>
+    <string name="pref_use_qsmod_title">QuickSetting Panel</string>
+    <string name="pref_use_qsmod_summary">Move QuickSettings into Notification panel</string>
+    <string name="pref_qs_number_of_row_key">QSRowNum</string>
+    <string name="pref_qs_number_of_row_title">Items in a Row</string>
+    <string name="pref_qs_number_of_row_summary">Number of items in a row. (current: %s)</string>
+    <string name="pref_qs_row_height_key">QSRowHeight</string>
+    <string name="pref_qs_row_height_title">Row Height</string>
+    <string name="pref_qs_row_height_summary">Number of row height in DIP. (current: %s dip)</string>
+    
+</resources>
