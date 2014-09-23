@@ -4,10 +4,13 @@ import android.content.res.XModuleResources;
 import android.content.res.XResources.DimensionReplacement;
 import android.util.TypedValue;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 import de.robv.android.xposed.IXposedHookInitPackageResources;
 import de.robv.android.xposed.IXposedHookZygoteInit;
 import de.robv.android.xposed.XSharedPreferences;
@@ -60,6 +63,22 @@ public class Mod4SystemUI implements IXposedHookZygoteInit,IXposedHookInitPackag
 					buttomLineLP.setMargins(0, (int)(dp2px(liparam,20.0f)), 0, 0);
 					Notificationtab.addView(upperLine, 0, upperLineLP);
 					Notificationtab.addView(bottomLine, 2, buttomLineLP);
+					
+					// Show QS Items in notification panel
+					if (pref.getBoolean("ShowEdit", false)) {
+						LinearLayout notifHeader = (LinearLayout) liparam.view.findViewById(liparam.res.getIdentifier("header","id",CLASSNAME_SYSTEMUI));
+						final Button orgQSEditButton = (Button)liparam.view.findViewById(liparam.res.getIdentifier("tab_edit_quick_settings_button","id",CLASSNAME_SYSTEMUI));
+						Button qsEditButton = new Button(liparam.view.getContext());
+						qsEditButton.setText(modRes.getString(R.string.desc_qs_edit_button));
+						qsEditButton.setLayoutParams(new LinearLayout.LayoutParams((int)(dp2px(liparam,54.0f)), ViewGroup.LayoutParams.WRAP_CONTENT));
+						qsEditButton.setBackgroundResource(liparam.res.getIdentifier("somc_quick_settings_btn_default","id",CLASSNAME_SYSTEMUI));
+						qsEditButton.setOnClickListener(new View.OnClickListener() {
+							public void onClick(View v) {
+								orgQSEditButton.performClick();
+							}
+						});
+						notifHeader.addView(qsEditButton,3);
+					}
 				}
 			});
 

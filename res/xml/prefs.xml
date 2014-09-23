@@ -7,6 +7,11 @@
             android:summary="@string/pref_use_qsmod_summary"
             android:title="@string/pref_use_qsmod_title" />
 
+        <CheckBoxPreference
+            android:key="@string/pref_show_qs_edit_button_key"
+            android:summary="@string/pref_show_qs_edit_button_summary"
+            android:title="@string/pref_show_qs_edit_button_title" />
+        
         <ListPreference
             android:dialogTitle="@string/pref_qs_number_of_row_title"
             android:entries="@array/number_of_row"
