@@ -27,5 +27,17 @@
             android:summary="@string/pref_qs_row_height_summary"
             android:title="@string/pref_qs_row_height_title" />
     </PreferenceCategory>
-
+    <PreferenceCategory android:title="@string/pref_category_recent_title" >
+        <CheckBoxPreference
+            android:key="@string/pref_use_recentmod_key"
+            android:summary="@string/pref_use_recentmod_summary"
+            android:title="@string/pref_use_recentmod_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_wholescreenshot_title" >
+        <CheckBoxPreference
+            android:key="@string/pref_use_wholescreenshot_key"
+            android:summary="@string/pref_use_wholescreenshot_summary"
+            android:title="@string/pref_use_wholescreenshot_title" />
+    </PreferenceCategory>
+    
 </PreferenceScreen>

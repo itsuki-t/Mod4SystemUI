@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <!-- App info -->
     <string name="app_name">Mod4SystemUI</string>
     <string name="app_description">various mod for SystemUI.</string>
+    
+     <!-- Preference screen -->
     <string name="pref_category_notif_title">Notification Panel</string>
     <string name="pref_use_qsmod_key">QucikSettings</string>
     <string name="pref_use_qsmod_title">QuickSetting Panel</string>
-    <string name="pref_use_qsmod_summary">Move QuickSettings into Notification panel</string>
+    <string name="pref_use_qsmod_summary">Move QuickSettings into Notification panel.</string>
     <string name="pref_show_qs_edit_button_key">ShowEdit</string>
     <string name="pref_show_qs_edit_button_title">Show Edit button</string>
     <string name="pref_show_qs_edit_button_summary">Show QuickSettings Edit button in Notification panel.</string>
@@ -18,4 +21,21 @@
     <string name="pref_qs_row_height_summary">Number of row height in DIP. (current: %s dip)</string>
     <string name="desc_qs_edit_button">Edit</string>
 
+    <string name="pref_category_recent_title">Recent apps screen</string>
+    <string name="pref_use_recentmod_key">ShowRAMBarInRecent</string>
+    <string name="pref_use_recentmod_title">RAM Bar</string>
+    <string name="pref_use_recentmod_summary">Show RAM Bar in Recent apps screnn.</string>
+
+    <string name="pref_category_wholescreenshot_title">Screen Shot</string>
+    <string name="pref_use_wholescreenshot_key">EnableWholeScreenShot</string>
+    <string name="pref_use_wholescreenshot_title">Whole screenshot</string>
+    <string name="pref_use_wholescreenshot_summary">Add "Whole Screenshot" to power menu.</string>
+    
+    <!-- Recent Panel mod -->
+    <string name="service_background_processes"><xliff:g id="memory">%1$s</xliff:g> free</string>
+    <string name="service_foreground_processes"><xliff:g id="memory">%1$s</xliff:g> used</string>
+
+    <!-- Screenshot mod -->
+    <string name="take_screenshot">Whole Screenshot</string>
+    
 </resources>

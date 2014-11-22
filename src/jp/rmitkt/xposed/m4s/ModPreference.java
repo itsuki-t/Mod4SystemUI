@@ -17,6 +17,8 @@ public class ModPreference extends PreferenceActivity {
 	private CheckBoxPreference mQS_ShowQSEditButton;
 	private ListPreference mQS_NumberOfRowSelect;
 	private ListPreference mQS_RowHeightSelect;
+	private CheckBoxPreference mRecent_ShowRAMBar;
+	private CheckBoxPreference mScreenshot_UseMod;
 
 	@SuppressWarnings("deprecation")
 	@Override
@@ -31,6 +33,8 @@ public class ModPreference extends PreferenceActivity {
 		mQS_ShowQSEditButton =  (CheckBoxPreference) findPreference(getString(R.string.pref_show_qs_edit_button_key));
 		mQS_NumberOfRowSelect = (ListPreference) findPreference(getString(R.string.pref_qs_number_of_row_key));
 		mQS_RowHeightSelect = (ListPreference) findPreference(getString(R.string.pref_qs_row_height_key));
+		mRecent_ShowRAMBar =  (CheckBoxPreference) findPreference(getString(R.string.pref_use_recentmod_key));
+		mScreenshot_UseMod =  (CheckBoxPreference) findPreference(getString(R.string.pref_use_wholescreenshot_key));
 
 		if (mQS_MergeNotiftabAndQStab.isChecked()) {
 			mQS_ShowQSEditButton.setEnabled(true);
