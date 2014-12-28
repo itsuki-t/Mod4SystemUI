@@ -8,7 +8,9 @@ Xposed module for modify SystemUI. for XPERIA 4.4+
 
 ## Change log:
 * Ver 0.4
- - [Other]Implementing Material Design. Use this library.   https://github.com/afollestad/material-dialogs
+ - [Other]Implementing Material Design.   
+Use "material-dialogs" library. thanks to @afollestad.  
+https://github.com/afollestad/material-dialogs
 
 * Ver 0.3
  - [Feature]Add option to show "RAM bar" in recent panel.
