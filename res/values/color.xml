@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary">@color/bluegrey400</color>
-    <color name="primary_dark">@color/bluegrey900</color>
-    <color name="accent">@color/bluegrey200</color>
-    <color name="colorControlNormal">@color/red50</color>
-
+    <color name="primary">@color/indigoA400</color>
+    <color name="primary_dark">@color/indigoA700</color>
+    <color name="accent">@color/indigo600</color>
+    <color name="colorControlNormal">@color/indigo500</color>
+    <color name="colorControlActivated">@color/indigo300</color>
+    <color name="colorControlHighlight">@color/red50</color>
+    <color name="colorSwitchThumbNormal">@color/indigo200</color>
+    
     <color name="red50">#fde0dc</color>
     <color name="red100">#f9bdbb</color>
     <color name="red200">#f69988</color>

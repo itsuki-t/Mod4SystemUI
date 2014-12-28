@@ -8,10 +8,11 @@
     <string name="pref_show_qs_edit_button_title">編集ボタンを表示</string>
     <string name="pref_show_qs_edit_button_summary">クイック設定ツールの編集ボタンを通知領域に表示する</string>
     <string name="pref_qs_number_of_row_title">アイテム数</string>
-    <string name="pref_qs_number_of_row_summary">1行あたりのアイテム数を設定する(現在値：%s)</string>
-    <string name="pref_qs_row_height_title">行の高さ</string>
-    <string name="pref_qs_row_height_summary">行の高さを設定する(現在値：%s dip)</string>
+    <string name="pref_qs_number_of_row_summary">１行あたりのアイテム数（現在：%s）</string>
+    <string name="pref_qs_row_height_title">行の高さ（dip）</string>
+    <string name="pref_qs_row_height_summary">１行の高さ（現在：%s dip）</string>
     <string name="desc_qs_edit_button">編集</string>
+    <string name="btn_choose">選択</string>
 
     <string name="pref_category_recent_title">最近使ったアプリ</string>
     <string name="pref_use_recentmod_title">RAMバーの表示</string>
