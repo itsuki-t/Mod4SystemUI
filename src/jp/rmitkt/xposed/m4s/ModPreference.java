@@ -55,5 +55,4 @@ public class ModPreference extends ActionBarActivity {
         .build()
         .show();
 	}	
-
 }

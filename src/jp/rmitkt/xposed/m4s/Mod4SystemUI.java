@@ -1,5 +1,6 @@
 package jp.rmitkt.xposed.m4s;
 
+import jp.rmitkt.xposed.m4s.NetworkMod.WiFiBandMod;
 import jp.rmitkt.xposed.m4s.RecentPanelMod.RecentPanelMod;
 import jp.rmitkt.xposed.m4s.ScreenshotMod.ScreenShotMod;
 import android.content.res.XModuleResources;
@@ -47,6 +48,12 @@ public class Mod4SystemUI implements IXposedHookZygoteInit,IXposedHookInitPackag
     	if (lpparam.packageName.equals(ScreenShotMod.TARGET_PACKAGE_NAME)){
     		if (pref.getBoolean("EnableWholeScreenShot", false)) {
     			ScreenShotMod.init(pref, lpparam.classLoader);
+    		}
+    	}
+    	// For Network mod
+    	if (lpparam.packageName.equals(ScreenShotMod.TARGET_PACKAGE_NAME)){
+    		if (pref.getBoolean("WifiBand", false)) {
+    			WiFiBandMod.init(pref, lpparam.classLoader);
     		}
     	}
     }

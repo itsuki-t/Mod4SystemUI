@@ -33,7 +33,12 @@ xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pref_use_wholescreenshot_key">EnableWholeScreenShot</string>
     <string name="pref_use_wholescreenshot_title">Whole screenshot</string>
     <string name="pref_use_wholescreenshot_summary">Add "Whole Screenshot" to power menu.</string>
-    
+
+    <string name="pref_category_network_title">Network</string>
+    <string name="pref_use_wifibandselect_key">WifiBand</string>
+    <string name="pref_use_wifibandselect_title">Wifi Band</string>
+    <string name="pref_use_wifibandselect_summary">Show option for selecting frequency band of Wi-Fi in Wi-Fi settings.</string>
+
     <!-- Recent Panel mod -->
     <string name="service_background_processes"><xliff:g id="memory">%1$s</xliff:g> free</string>
     <string name="service_foreground_processes"><xliff:g id="memory">%1$s</xliff:g> used</string>

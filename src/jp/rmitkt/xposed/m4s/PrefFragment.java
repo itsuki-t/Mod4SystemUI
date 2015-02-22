@@ -17,6 +17,7 @@ public class PrefFragment extends PreferenceFragment {
 	private Preference mQS_RowHeightSelect;
 	private CheckBoxPreference mRecent_ShowRAMBar;
 	private CheckBoxPreference mScreenshot_UseMod;
+	private CheckBoxPreference mNetwork_WiFiBandSelect;
 	protected static SharedPreferences sp = null;
 
 	@Override
@@ -36,6 +37,7 @@ public class PrefFragment extends PreferenceFragment {
 		mQS_RowHeightSelect = (Preference) findPreference(getString(R.string.pref_qs_row_height_key));
 		mRecent_ShowRAMBar =  (CheckBoxPreference) findPreference(getString(R.string.pref_use_recentmod_key));
 		mScreenshot_UseMod =  (CheckBoxPreference) findPreference(getString(R.string.pref_use_wholescreenshot_key));
+		mNetwork_WiFiBandSelect = (CheckBoxPreference) findPreference(getString(R.string.pref_use_wifibandselect_key));
 	}
 
 	private void setListener(){

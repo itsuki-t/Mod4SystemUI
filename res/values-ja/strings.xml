@@ -17,5 +17,9 @@
     <string name="pref_category_recent_title">最近使ったアプリ</string>
     <string name="pref_use_recentmod_title">RAMバーの表示</string>
     <string name="pref_use_recentmod_summary">最近使ったアプリの上部にRAMバーを表示する</string>
-    
+
+    <string name="pref_category_network_title">ネットワーク</string>
+    <string name="pref_use_wifibandselect_title">Wifi周波数帯域</string>
+    <string name="pref_use_wifibandselect_summary">WiFiで使用する周波数帯域を選択するオプションをWiFi設定に表示する</string>
+
 </resources>

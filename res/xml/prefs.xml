@@ -15,7 +15,10 @@
         <Preference 
             android:key="@string/pref_qs_number_of_row_key"
             android:title="@string/pref_qs_number_of_row_summary"></Preference>
-        <Preference android:key="@string/pref_qs_row_height_key" android:title="@string/pref_qs_row_height_summary"></Preference>
+
+        <Preference 
+            android:key="@string/pref_qs_row_height_key"
+            android:title="@string/pref_qs_row_height_summary"></Preference>
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/pref_category_recent_title" >
         <CheckBoxPreference
@@ -28,6 +31,12 @@
             android:key="@string/pref_use_wholescreenshot_key"
             android:summary="@string/pref_use_wholescreenshot_summary"
             android:title="@string/pref_use_wholescreenshot_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_network_title" >
+        <CheckBoxPreference
+            android:key="@string/pref_use_wifibandselect_key"
+            android:summary="@string/pref_use_wifibandselect_summary"
+            android:title="@string/pref_use_wifibandselect_title" />
     </PreferenceCategory>
     
 </PreferenceScreen>
